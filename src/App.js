@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import {Home, NewPost} from './Pages/PageHandle'
+import ElectricalServicesIcon from '@mui/icons-material/ElectricalServices';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <BrowserRouter>
+      <header>
+        <Link to="/" className='Powered_Ai'>
+          <ElectricalServicesIcon/><p className='Powered_Ai_Text'>Powered By OpenAI</p>
+        </Link>
+
+        <Link to="/NewPost" className='Create_Post_Link'>
+          Create
+        </Link>
       </header>
-    </div>
+    </BrowserRouter>
   );
 }
 
