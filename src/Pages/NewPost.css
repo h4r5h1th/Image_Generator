@@ -1,0 +1,107 @@
+/* NewPost.css */
+.New_Post_max-width-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .New_Post_main-heading {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .New_Post_sub-text {
+    margin-top: 2px;
+    color: #ffffffc1;
+    font-size: 14px;
+    max-width: 500px;
+  }
+  
+  .New_Post_form-container {
+    margin-top: 16px;
+    max-width: 3xl;
+  }
+  
+  .New_Post_flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .New_Post_image-wrapper {
+    position: relative;
+    background-color: #ffffff00;
+    border-radius: 0.375rem;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .New_Post_full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .New_Post_preview-image {
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+    opacity: 0.7;
+  }
+  
+  .New_Post_loader-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.375rem;
+  }
+  
+  .New_Post_button-group {
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .New_Post_generate-button {
+    color: white;
+    cursor: pointer;
+    background-color: #34d399;
+    font-weight: medium;
+    border-radius: 0.3125rem;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px 13px;
+    text-align: center;
+  }
+  
+  .New_Post_share-container {
+    margin-top: 10px;
+  }
+  
+  .New_Post_share-text {
+    margin-top: 2px;
+    color: #ebebeb;
+    font-size: 14px;
+  }
+  
+  .New_Post_share-button {
+    margin-top: 3px;
+    color: white;
+    background-color: #6469ff;
+    font-weight: medium;
+    border-radius: 0.3125rem;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px 13px;
+    text-align: center;
+    cursor: pointer;
+  }
+  

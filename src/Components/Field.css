@@ -1,0 +1,36 @@
+/* Field.css */
+.Field_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .Field_label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .Field_surprise-btn {
+    font-size: 12px;
+    background-color: #7000a0;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .Field_input {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

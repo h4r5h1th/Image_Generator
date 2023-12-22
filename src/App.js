@@ -15,6 +15,12 @@ function App() {
           Create
         </Link>
       </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/NewPost" element={<NewPost/>}/>
+        </Routes>
+      </main>
     </BrowserRouter>
   );
 }

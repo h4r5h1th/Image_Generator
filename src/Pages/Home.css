@@ -1,0 +1,40 @@
+.Community_Title{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Community_Title > h1{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.Community_Title > p{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.Field_Home{
+    margin: 50px 20px;
+}
+
+.Home_Results{
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: small;
+}
+
+.Home_Loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.Show_Results_Text{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: large;
+    font-weight: 400;
+}
